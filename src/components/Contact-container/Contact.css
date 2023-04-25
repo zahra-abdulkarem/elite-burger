@@ -1,0 +1,16 @@
+.contact .contact-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.our-location iframe{
+    width: 100vh;
+    height: 60vh;
+}
+@media (max-width: 420px){
+    .our-location iframe{
+        width: 50vh;
+        height: 60vh;
+        margin-left: 1rem;
+    }
+}

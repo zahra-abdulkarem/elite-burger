@@ -1,0 +1,111 @@
+@import '../../App.scss';
+
+.footer{
+    width: 100%;
+    background: $dark-color;
+    padding: 2rem 0;
+    .container{
+        max-width: 1170px;
+        margin: auto;
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            .footer-col{
+                width: 16.66%;
+                padding: 0 1.5rem;
+                h4{
+                    font-size: 1.5rem;
+                    color: $Primary-color;
+                    margin-bottom: 2.5rem;
+                    font-weight: 500;
+                    position: relative;
+                }
+                h4:before{
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    bottom: -1rem;
+                    background: $secondary-color;
+                    height: .2rem;
+                    box-sizing: border-box;
+                    width: 5rem;
+                }
+                ul{
+                    list-style: none;
+                    li{
+                        a{
+                        font-size: 1rem;
+                        text-decoration: none;
+                        color: $light-color;
+                        display: block;
+                        margin-bottom: 1rem;
+                        }
+                        a:hover{
+                            color: #555;
+                            padding-left: .6rem;
+                        }
+                    }
+                }
+                .social-links{
+                    a{
+                    display: inline-block;
+                    padding: .2rem .5rem;
+                    background: transparent;
+                    margin: 0 1rem 1rem 0;
+                    text-align: center;
+                    border-radius: 50%;
+                    color: $Primary-color;
+                    border: .1rem solid $secondary-color;
+                    transition: all .5s ease;
+                    }
+                    a:hover{
+                        color: $light-color;
+                        background: $secondary-color;
+                    }
+                }
+                .logo{
+                    width: 7rem;
+                    height: 7rem;
+                }
+                .stor-view{
+                    width: 9rem;
+                    height: 11rem;
+                }
+            }
+            
+        }
+    }
+    .copy-right{
+        text-align: center;
+        color: $light-color;
+        padding-top: .5rem;
+    }
+}
+
+@media (min-width: 568px) and (max-width: 991px){
+    .footer{
+        width: 200%;
+        .container{
+            .row{
+                .footer-col{
+                    width: 25%;
+                    margin-bottom: 30px;
+                }
+                
+            }
+        }
+    }
+}
+@media (max-width: 567px){
+    .footer{
+        width: 200%;
+        .container{
+            .row{
+                .footer-col{
+                    width: 33.33%;
+                }
+                
+            }
+        }
+    }
+}

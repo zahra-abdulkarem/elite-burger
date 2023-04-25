@@ -1,0 +1,37 @@
+.cards-wapper .card{
+    width: 18rem;
+    min-height: 18rem;
+    margin: 0 .5rem;
+    padding: .4rem;
+    transition: .5s;
+}
+.cards-wapper .card:hover{
+    transform: scale(1.1);
+}
+.cards-wapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 3rem;
+}
+.all-menu{
+    display: flex;
+    justify-content: space-around;
+}
+.all-menu img{
+    width: 20rem;
+    margin-bottom: 3rem;
+}
+.cards-wapper .card .image{
+    overflow: hidden;
+}
+.cards-wapper .card .image img{
+    object-fit: cover;
+}
+.cards-wapper .card:hover .image img{
+    transform: scale(1.2);
+    transition: .5s;
+}
+span{
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+}
+
+body {
+  background: #1d1b1b;
+}
+
+section {
+  background: #f0ae15;
+  padding: 2rem;
+}
+
+.primary-btn {
+  background: #a62220;
+  color: #fff;
+  border: 1px solid #a62220;
+  transition: 0.4s;
+}
+
+.primary-btn:hover {
+  background: #8a1c1a;
+  color: #eee;
+  letter-spacing: 0.1rem;
+}
+
+h1.title {
+  font-size: 3rem;
+  color: #1d1b1b;
+  text-align: center;
+  padding: 3rem;
+  text-transform: uppercase;
+}
+h1.title span {
+  font-size: 3rem;
+  color: #a62220;
+  text-transform: uppercase;
+}/*# sourceMappingURL=App.css.map */

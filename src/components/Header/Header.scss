@@ -1,0 +1,112 @@
+@import '../../App.scss';
+header{
+    .nav-bar-1{
+        display: flex;
+        position: fixed;
+        background: $dark-color;
+        width: 100%;
+        height: 4rem;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem;
+        box-shadow: $box-shadow;
+        z-index: 3;
+        .logo img{
+            width: 100px;
+            padding: 1rem;
+            margin: 1rem;
+        }
+        ul{
+            display: flex;
+            align-items: center;
+            li a,
+            li{
+            list-style: none;
+            font-size: 1rem;
+            color: $light-color;
+            margin-left: 1rem;
+            text-decoration: none;
+            :hover{
+                color: $Primary-color;
+                text-decoration: overline;
+                }
+            }
+        }
+        .fas{
+            color: $light-color;
+            font-size: 1.3rem;
+            margin-right: 2rem;
+            padding: .5rem;
+            border-radius: 50%;
+        }
+        .fas:hover{
+            background: #333;
+            color: $Primary-color;
+        }
+    }
+    .nav-bar-2{
+        background: $secondary-color;
+        position: fixed;
+        top: 4rem;
+        width: 100%;
+        z-index: 10;
+        .nav-link{
+            color: $light-color;
+        }
+        .nav-link:hover,
+        .nav-link.active{
+            color: $Primary-color;
+        }
+    }
+    .header-container img{
+        padding: 2rem;
+        max-width: 1000px;
+        margin-top: 9rem;
+    }
+}
+
+.container-fluid .navbar-brand{
+    color: $Primary-color;
+}
+.container-fluid .navbar-brand span{
+    color: $secondary-color;
+}
+@media (max-width: 750px){
+    .nav-bar-2{
+        width: 200%;
+    }
+}
+@media (max-width: 350px){
+    header{
+        .nav-bar-1{
+            ul{
+                li a,
+                li{
+                font-size: .8rem;
+                margin-left: .5rem;
+                }
+            }
+            .fas{
+                
+                margin-right: .5rem;
+            }
+        }
+    }
+}
+@media (min-width: 351px) and (max-width: 500px){
+    header{
+        .nav-bar-1{
+            ul{
+                li a,
+                li{
+                font-size: .9rem;
+                margin-left: .4rem;
+                }
+            }
+            .fas{
+                
+                margin-right: .4rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+.summary .progress .progress-bar{
+    background: #a62220;
+    border-radius: .5rem;
+}
+.summary .progress .progress-bar:first-child{
+    width: 4%;
+}
+.summary .progress{
+    margin-bottom: 1rem;
+    width: 500%;
+}
+.Review-summary {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Review-summary .Final-evaluation{
+    margin-left: 3rem;
+    text-align: center;
+    color: #fff;
+    font-size: 1.6rem;
+}
+.Review-summary .summary p{
+    color: #555;
+}
+@media (max-width: 750px){
+    .Review-summary {
+        display: block;
+        padding: 5rem 0;
+    }
+    .summary .progress{
+        width: 100%;
+    }
+}

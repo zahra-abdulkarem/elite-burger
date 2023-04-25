@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+}
+
+body {
+  background: #1d1b1b;
+}
+
+section {
+  width: 100%;
+  background: #f0ae15;
+  padding: 2rem;
+  padding-top: 10rem;
+}
+
+.primary-btn {
+  background: #a62220;
+  color: #fff;
+  border: 1px solid #a62220;
+  transition: 0.4s;
+}
+
+.primary-btn:hover {
+  background: #8a1c1a;
+  color: #eee;
+  letter-spacing: 0.1rem;
+}
+
+h1.title {
+  font-size: 3rem;
+  color: #1d1b1b;
+  text-align: center;
+  padding: 3rem;
+  text-transform: uppercase;
+}
+h1.title span {
+  font-size: 3rem;
+  color: #a62220;
+  text-transform: uppercase;
+}
+
+@media (max-width: 991px) {
+  section {
+    width: 200%;
+    padding-bottom: 10rem;
+  }
+  section h1 {
+    font-size: 0.6rem;
+  }
+  section h1 span {
+    font-size: 0.6rem;
+  }
+}
+header .nav-bar-1 {
+  display: flex;
+  position: fixed;
+  background: #1d1b1b;
+  width: 100%;
+  height: 4rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  z-index: 3;
+}
+header .nav-bar-1 .logo img {
+  width: 100px;
+  padding: 1rem;
+  margin: 1rem;
+}
+header .nav-bar-1 ul {
+  display: flex;
+  align-items: center;
+}
+header .nav-bar-1 ul li a,
+header .nav-bar-1 ul li {
+  list-style: none;
+  font-size: 1rem;
+  color: #fff;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+header .nav-bar-1 ul li a :hover,
+header .nav-bar-1 ul li :hover {
+  color: #f0ae15;
+  text-decoration: overline;
+}
+header .nav-bar-1 .fas {
+  color: #fff;
+  font-size: 1.3rem;
+  margin-right: 2rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+header .nav-bar-1 .fas:hover {
+  background: #333;
+  color: #f0ae15;
+}
+header .nav-bar-2 {
+  background: #a62220;
+  position: fixed;
+  top: 4rem;
+  width: 100%;
+  z-index: 10;
+}
+header .nav-bar-2 .nav-link {
+  color: #fff;
+}
+header .nav-bar-2 .nav-link:hover,
+header .nav-bar-2 .nav-link.active {
+  color: #f0ae15;
+}
+header .header-container img {
+  padding: 2rem;
+  max-width: 1000px;
+  margin-top: 9rem;
+}
+
+.container-fluid .navbar-brand {
+  color: #f0ae15;
+}
+
+.container-fluid .navbar-brand span {
+  color: #a62220;
+}
+
+@media (max-width: 750px) {
+  .nav-bar-2 {
+    width: 200%;
+  }
+}
+@media (max-width: 350px) {
+  header .nav-bar-1 ul li a,
+  header .nav-bar-1 ul li {
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+  }
+  header .nav-bar-1 .fas {
+    margin-right: 0.5rem;
+  }
+}
+@media (min-width: 351px) and (max-width: 500px) {
+  header .nav-bar-1 ul li a,
+  header .nav-bar-1 ul li {
+    font-size: 0.9rem;
+    margin-left: 0.4rem;
+  }
+  header .nav-bar-1 .fas {
+    margin-right: 0.4rem;
+  }
+}/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,8 @@
+.about .accordion .accordion-collapse img{
+    width: 15rem;
+    height: 10rem;
+    margin-bottom: .5rem;
+}
+.about .accordion .accordion-collapse{
+    padding: 1rem;
+}

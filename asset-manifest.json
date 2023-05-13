@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/elite-burger/static/css/main.bd1a1848.css",
-    "main.js": "/elite-burger/static/js/main.f4065afe.js",
+    "main.js": "/elite-burger/static/js/main.bde027b2.js",
     "static/media/logo.png": "/elite-burger/static/media/logo.dfecedb198b5bf55b51f.png",
     "static/media/img-22.jpg": "/elite-burger/static/media/img-22.6c06fc0305ca92f8ea2a.jpg",
     "static/media/img-16.jpg": "/elite-burger/static/media/img-16.c486917059281ef2d2d3.jpg",
@@ -24,10 +24,10 @@
     "static/media/img-21.jpg": "/elite-burger/static/media/img-21.5d2c68207b425c77d5b2.jpg",
     "index.html": "/elite-burger/index.html",
     "main.bd1a1848.css.map": "/elite-burger/static/css/main.bd1a1848.css.map",
-    "main.f4065afe.js.map": "/elite-burger/static/js/main.f4065afe.js.map"
+    "main.bde027b2.js.map": "/elite-burger/static/js/main.bde027b2.js.map"
   },
   "entrypoints": [
     "static/css/main.bd1a1848.css",
-    "static/js/main.f4065afe.js"
+    "static/js/main.bde027b2.js"
   ]
 }

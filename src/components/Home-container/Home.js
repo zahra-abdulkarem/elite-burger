@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <>
         <section className="home">
-            <h1 class="title">wellcome to our <span>websaite</span></h1>
+            <h1 className="title">wellcome to our <span>websaite</span></h1>
         <div id="carouselExampleRide" className="carousel slide" data-bs-ride="true">
             <div className="carousel-inner">
                 <Homeswiper itemClass='carousel-item active' img={img1}                                         p="Elite Burger Restaurant is classNameified as a burger shop,  grilled chicken burger and beef burger, all of them are  delicious, fast delivery, and their prices are very reasonable"/>

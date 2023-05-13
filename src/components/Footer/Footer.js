@@ -51,7 +51,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="copy-right">
-            © 2023 Eliteburger. All Rights Reserved
+            © 2023 zahra abduolkerem. All Rights Reserved
         </div>
     </footer>
     </>

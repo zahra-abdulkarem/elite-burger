@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/elite-burger/static/css/main.bd1a1848.css",
+    "main.js": "/elite-burger/static/js/main.f4065afe.js",
+    "static/media/logo.png": "/elite-burger/static/media/logo.dfecedb198b5bf55b51f.png",
+    "static/media/img-22.jpg": "/elite-burger/static/media/img-22.6c06fc0305ca92f8ea2a.jpg",
+    "static/media/img-16.jpg": "/elite-burger/static/media/img-16.c486917059281ef2d2d3.jpg",
+    "static/media/img-2.jpg": "/elite-burger/static/media/img-2.5d09d4044412a83e83c3.jpg",
+    "static/media/img-20.jpg": "/elite-burger/static/media/img-20.a396454a1414448e3378.jpg",
+    "static/media/img-1.jpg": "/elite-burger/static/media/img-1.caf0d9405dfedff42471.jpg",
+    "static/media/img-4.jpg": "/elite-burger/static/media/img-4.6b85e2207fed4fc830e5.jpg",
+    "static/media/img-26.jpg": "/elite-burger/static/media/img-26.d903f2cf1378c72f33c7.jpg",
+    "static/media/img-5.jpg": "/elite-burger/static/media/img-5.5c1c455e77493b8eddca.jpg",
+    "static/media/img-23.jpg": "/elite-burger/static/media/img-23.8a9751044a072746e69f.jpg",
+    "static/media/img-25.jpg": "/elite-burger/static/media/img-25.3db95f92a4140c69c8e7.jpg",
+    "static/media/img-24.jpg": "/elite-burger/static/media/img-24.d96b5a2edf0c4cd5a964.jpg",
+    "static/media/img-9.jpg": "/elite-burger/static/media/img-9.87f90125e53bf8dae6db.jpg",
+    "static/media/img-19.jpg": "/elite-burger/static/media/img-19.cd6afcfcd27879ea57e9.jpg",
+    "static/media/img-6.jpg": "/elite-burger/static/media/img-6.a456db5a8b678f9a2d79.jpg",
+    "static/media/img-27.jpg": "/elite-burger/static/media/img-27.54ee26b39fd484a6a3eb.jpg",
+    "static/media/img-30.jpg": "/elite-burger/static/media/img-30.7df2711ca2cae94572f2.jpg",
+    "static/media/img-8.jpg": "/elite-burger/static/media/img-8.e6b2ea581e8ec0fcc80c.jpg",
+    "static/media/img-29.jpg": "/elite-burger/static/media/img-29.58cc68da678a9cbf05cf.jpg",
+    "static/media/img-21.jpg": "/elite-burger/static/media/img-21.5d2c68207b425c77d5b2.jpg",
+    "index.html": "/elite-burger/index.html",
+    "main.bd1a1848.css.map": "/elite-burger/static/css/main.bd1a1848.css.map",
+    "main.f4065afe.js.map": "/elite-burger/static/js/main.f4065afe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd1a1848.css",
+    "static/js/main.f4065afe.js"
+  ]
+}

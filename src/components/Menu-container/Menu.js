@@ -14,8 +14,8 @@ const Menu = () => {
         <section className="menu" id="menu">
         <h1 className='title'>all <span>Menu</span></h1>
         <div className="all-menu">
-            <img src={img16} alt="image one"/>
-            <img src={img20} alt="image two"/>
+            <img src={img16} alt="imageOne"/>
+            <img src={img20} alt="imageTwo"/>
         </div>
         <div className="cards-wapper">
             {menuFood}

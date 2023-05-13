@@ -4,7 +4,7 @@ import {Header , Home, Menu, About, Reviews, Contact, Footer, Container} from '.
 const App = () => {
     return(
         <>
-        <Router>
+        <Router basename="/elite-burger">
         <Header/>
         <Container>
         <Routes>

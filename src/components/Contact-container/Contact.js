@@ -22,7 +22,7 @@ const Contact = () => {
             </div>
     
             <div className="our-location">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14850.242743382387!2d39.9405045!3d21.4857476!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c1ff2cbc6a598b%3A0x221f40178893b23a!2z2KXZhNmK2Kog2KjYsdis2LE!5e0!3m2!1sen!2ssa!4v1679081612018!5m2!1sen!2ssa" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe title='map' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14850.242743382387!2d39.9405045!3d21.4857476!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c1ff2cbc6a598b%3A0x221f40178893b23a!2z2KXZhNmK2Kog2KjYsdis2LE!5e0!3m2!1sen!2ssa!4v1679081612018!5m2!1sen!2ssa" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </section>

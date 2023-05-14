@@ -1,0 +1,43 @@
+.contact-container{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 1rem;
+    width: 100%;
+    .contact-wapper{
+        text-align: center;
+        .btn{
+            padding: .7rem 3rem;
+        }
+        div{
+            margin: 1rem 0;
+            label{
+                float: left;
+            }
+            .form-label{
+                margin: 1rem 0;
+            }
+            .form-control{
+                width: 95%;
+                margin: 1rem 0;
+            }
+        }
+    }
+    .our-location{
+        iframe{
+            width: 93%;
+        }
+    }
+}
+
+@media (max-width: 661px){
+    .contact-container{
+        grid-template-columns: 100%;
+        .our-location{
+            iframe{
+                width: 99%;
+                height: 45vh;
+            }
+        }
+    }
+    
+}

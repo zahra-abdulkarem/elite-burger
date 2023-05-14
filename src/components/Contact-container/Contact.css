@@ -1,16 +1,38 @@
-.contact .contact-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  gap: 1rem;
+  width: 100%;
 }
-.our-location iframe{
-    width: 100vh;
-    height: 60vh;
+.contact-container .contact-wapper {
+  text-align: center;
 }
-@media (max-width: 420px){
-    .our-location iframe{
-        width: 50vh;
-        height: 60vh;
-        margin-left: 1rem;
-    }
+.contact-container .contact-wapper .btn {
+  padding: 0.7rem 3rem;
 }
+.contact-container .contact-wapper div {
+  margin: 1rem 0;
+}
+.contact-container .contact-wapper div label {
+  float: left;
+}
+.contact-container .contact-wapper div .form-label {
+  margin: 1rem 0;
+}
+.contact-container .contact-wapper div .form-control {
+  width: 95%;
+  margin: 1rem 0;
+}
+.contact-container .our-location iframe {
+  width: 93%;
+}
+
+@media (max-width: 661px) {
+  .contact-container {
+    grid-template-columns: 100%;
+  }
+  .contact-container .our-location iframe {
+    width: 99%;
+    height: 45vh;
+  }
+}/*# sourceMappingURL=Contact.css.map */

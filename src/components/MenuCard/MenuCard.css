@@ -1,18 +1,44 @@
+.cards-wapper{
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); */
+    grid-template-columns: repeat(4, 25%);
+    gap: 1rem;
+    padding: 2rem;
+}
 .cards-wapper .card{
-    width: 18rem;
-    min-height: 18rem;
-    margin: 0 .5rem;
+    width: 95%;
+    min-height: 100%;
+    margin: 0;
     padding: .4rem;
     transition: .5s;
 }
 .cards-wapper .card:hover{
     transform: scale(1.1);
 }
-.cards-wapper{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    gap: 3rem;
-}
 img{
-    width: 10rem;
+    width: 100%;
+}
+.card-body span{
+    font-size: 1rem;
+}
+@media (max-width: 991px){
+    .cards-wapper{
+        grid-template-columns: repeat(3, 33%);
+        gap: 1rem;
+        margin: .5rem;
+        padding: 0;
+    }
+}
+@media (max-width: 771px){
+    .cards-wapper{
+        grid-template-columns: repeat(2, 50%);
+    }
+}
+@media (max-width: 441px){
+    .cards-wapper{
+        grid-template-columns: 100%;
+    }
+    .card{
+        width: 98%;
+    }
 }

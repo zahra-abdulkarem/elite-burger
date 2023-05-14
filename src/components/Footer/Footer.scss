@@ -3,10 +3,10 @@
 .footer{
     width: 100%;
     background: $dark-color;
-    padding: 2rem 0;
+    padding: 2rem 1rem;
+    margin: 0;
     .container{
-        max-width: 1170px;
-        margin: auto;
+        width: 100%;
         .row{
             display: flex;
             flex-wrap: wrap;
@@ -82,27 +82,58 @@
     }
 }
 
-@media (min-width: 568px) and (max-width: 991px){
+
+@media (max-width: 991px){
     .footer{
-        width: 200%;
         .container{
             .row{
+                display: grid;
+                grid-template-columns: repeat(4, 25%);
                 .footer-col{
-                    width: 25%;
-                    margin-bottom: 30px;
+                    width: 99%;
                 }
                 
             }
         }
     }
 }
-@media (max-width: 567px){
+@media (min-width: 481px) and (max-width: 781px){
     .footer{
-        width: 200%;
         .container{
             .row{
+                grid-template-columns: repeat(3, 33.33%);
                 .footer-col{
-                    width: 33.33%;
+                    width: 98%;
+                }
+                
+            }
+        }
+    }
+}
+@media (max-width: 491px){
+    .footer{
+        .container{
+            .row{
+                grid-template-columns: repeat(2, 50%);
+                .footer-col{
+                    h4{
+                        font-size: 1.1rem;
+                    }
+                    ul{
+                        li{
+                            a{
+                            font-size: .8rem;
+                            }
+                        }
+                    }
+                    .logo{
+                        width: 4rem;
+                        height: 4rem;
+                    }
+                    .stor-view{
+                        width: 6rem;
+                        height: 8rem;
+                    }
                 }
                 
             }

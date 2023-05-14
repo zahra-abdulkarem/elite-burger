@@ -13,8 +13,7 @@ body {
 section {
   width: 100%;
   background: #f0ae15;
-  padding: 2rem;
-  padding-top: 10rem;
+  padding: 1rem 1.5rem;
 }
 
 .primary-btn {
@@ -45,8 +44,8 @@ h1.title span {
 
 @media (max-width: 991px) {
   section {
-    width: 200%;
     padding-bottom: 10rem;
+    padding: 0.5rem;
   }
   section h1 {
     font-size: 0.6rem;
@@ -55,14 +54,23 @@ h1.title span {
     font-size: 0.6rem;
   }
 }
+@media (max-width: 441px) {
+  section h1.title {
+    font-size: 1.5rem;
+    padding: 1.5rem;
+  }
+  section h1.title span {
+    font-size: 1.5rem;
+  }
+}
 .footer {
   width: 100%;
   background: #1d1b1b;
-  padding: 2rem 0;
+  padding: 2rem 1rem;
+  margin: 0;
 }
 .footer .container {
-  max-width: 1170px;
-  margin: auto;
+  width: 100%;
 }
 .footer .container .row {
   display: flex;
@@ -132,20 +140,39 @@ h1.title span {
   padding-top: 0.5rem;
 }
 
-@media (min-width: 568px) and (max-width: 991px) {
-  .footer {
-    width: 200%;
+@media (max-width: 991px) {
+  .footer .container .row {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
   }
   .footer .container .row .footer-col {
-    width: 25%;
-    margin-bottom: 30px;
+    width: 99%;
   }
 }
-@media (max-width: 567px) {
-  .footer {
-    width: 200%;
+@media (min-width: 481px) and (max-width: 781px) {
+  .footer .container .row {
+    grid-template-columns: repeat(3, 33.33%);
   }
   .footer .container .row .footer-col {
-    width: 33.33%;
+    width: 98%;
+  }
+}
+@media (max-width: 491px) {
+  .footer .container .row {
+    grid-template-columns: repeat(2, 50%);
+  }
+  .footer .container .row .footer-col h4 {
+    font-size: 1.1rem;
+  }
+  .footer .container .row .footer-col ul li a {
+    font-size: 0.8rem;
+  }
+  .footer .container .row .footer-col .logo {
+    width: 4rem;
+    height: 4rem;
+  }
+  .footer .container .row .footer-col .stor-view {
+    width: 6rem;
+    height: 8rem;
   }
 }/*# sourceMappingURL=Footer.css.map */

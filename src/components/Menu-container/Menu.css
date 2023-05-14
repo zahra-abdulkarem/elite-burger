@@ -14,11 +14,11 @@
     gap: 3rem;
 }
 .all-menu{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
 }
 .all-menu img{
-    width: 20rem;
+    width: 97%;
     margin-bottom: 3rem;
 }
 .cards-wapper .card .image{

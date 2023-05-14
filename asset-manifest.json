@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/elite-burger/static/css/main.bd1a1848.css",
-    "main.js": "/elite-burger/static/js/main.bde027b2.js",
+    "main.css": "/elite-burger/static/css/main.191dbf68.css",
+    "main.js": "/elite-burger/static/js/main.3c145f1d.js",
     "static/media/logo.png": "/elite-burger/static/media/logo.dfecedb198b5bf55b51f.png",
     "static/media/img-22.jpg": "/elite-burger/static/media/img-22.6c06fc0305ca92f8ea2a.jpg",
     "static/media/img-16.jpg": "/elite-burger/static/media/img-16.c486917059281ef2d2d3.jpg",
@@ -23,11 +23,11 @@
     "static/media/img-29.jpg": "/elite-burger/static/media/img-29.58cc68da678a9cbf05cf.jpg",
     "static/media/img-21.jpg": "/elite-burger/static/media/img-21.5d2c68207b425c77d5b2.jpg",
     "index.html": "/elite-burger/index.html",
-    "main.bd1a1848.css.map": "/elite-burger/static/css/main.bd1a1848.css.map",
-    "main.bde027b2.js.map": "/elite-burger/static/js/main.bde027b2.js.map"
+    "main.191dbf68.css.map": "/elite-burger/static/css/main.191dbf68.css.map",
+    "main.3c145f1d.js.map": "/elite-burger/static/js/main.3c145f1d.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd1a1848.css",
-    "static/js/main.bde027b2.js"
+    "static/css/main.191dbf68.css",
+    "static/js/main.3c145f1d.js"
   ]
 }
